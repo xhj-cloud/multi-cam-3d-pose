@@ -1,0 +1,37 @@
+# 虚拟环境
+venv/
+
+# 模型权重 (体积大, 由 install_deps.sh 自动下载)
+checkpoints/
+
+# 输入视频 & 标定照片 (体积大 + 可能含个人信息)
+inputs/
+calib/calib_images/
+
+# 所有运行时输出 (帧图像 / 检测结果 / 3D 骨架 / 动画)
+output/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# IDE & 系统文件
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Claude 工作区
+.claude/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 环境变量
+.env
+.env.local
